@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form UI Design with HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" method="post" class="reg_form">
+            <div id="form_design">
+
+                <div>
+                    <h1>Sign Up</h1>
+
+                    <section>
+                        <h3> Basic Details</h3>
+
+                        <div class="input_field_one">
+                            <!-- First name input field -->
+                            <div id="left">
+                                <label for="">Full Name</label>
+                                <br>
+                                <input type="text" placeholder="Enter your name" class="input_field" id="id_!">
+                            </div>
+
+                            <!-- Image Holder -->
+                            <div id="right">
+                                <div style="width: 70px; height:70px;background-color: orange; border-radius: 100%; 
+                                display: flex; justify-content: center; align-items: center;">
+                                    <div>
+                                        <img src="../image/icons8-cam-100.png" alt="camera img" class="camera_img" />
+                                    </div>
+
+
+                                </div>
+                                <p style="padding-top: 12px;">Add Photo</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <label for="ctn">Constituency</label>
+                        <div class="constituency">
+                            <input type="text" placeholder="Search Constituency" name="Constituency" id="ctn"
+                                value="" />
+                            <div>
+                                <img src="../image/icons8-location-100.png" alt="" class="location_img">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
